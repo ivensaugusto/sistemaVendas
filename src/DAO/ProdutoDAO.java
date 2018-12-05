@@ -22,6 +22,9 @@ public class ProdutoDAO {
 		}else {
 			tfCodProduto = "blablabla";
 		}
+		stmt.close();
+		conexao.close();
+		
 		return rs;
 	}
 }
