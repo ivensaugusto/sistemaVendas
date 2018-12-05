@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class conexao {
+public class Conexao {
 
 	public static Connection conectar(Database database) throws SQLException {
 		String caminho = database.getCaminho();
